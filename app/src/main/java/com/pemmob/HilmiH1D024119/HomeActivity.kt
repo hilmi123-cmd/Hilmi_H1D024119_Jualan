@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import com.pemmob.HilmiH1D024119.ui.screen.DaftarProdukScreen
 import com.pemmob.HilmiH1D024119.ui.theme.JualanTheme
 
-class MainActivity : ComponentActivity() {
+class HomeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
