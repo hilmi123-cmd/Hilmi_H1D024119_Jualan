@@ -29,25 +29,25 @@ Shift Awal & Baru : G & A
 #### Mode Terang (Light Mode)
 * **Kategori Makanan**
   
-  ![Daftar Produk Makanan - Light Mode](Screenshot/p31.jpg)
+  ![Daftar Produk Makanan - Light Mode](Screenshot/p31.png)
 
 * **Kategori Minuman**
   
-  ![Daftar Produk Minuman - Light Mode](Screenshot/p32.jpg)
+  ![Daftar Produk Minuman - Light Mode](Screenshot/p32.png)
 
 * **Kategori Kerajinan**
   
-  ![Daftar Produk Kerajinan - Light Mode](Screenshot/p33.jpg)
+  ![Daftar Produk Kerajinan - Light Mode](Screenshot/p33.png)
 
 #### Mode Gelap (Dark Mode)
 * **Kategori Makanan**
   
-  ![Daftar Produk Makanan - Dark Mode](Screenshot/pm31.jpg)
+  ![Daftar Produk Makanan - Dark Mode](Screenshot/pm31.png)
 
 * **Kategori Minuman**
   
-  ![Daftar Produk Minuman - Dark Mode](Screenshot/pm32.jpg)
+  ![Daftar Produk Minuman - Dark Mode](Screenshot/pm32.png)
 
 * **Kategori Kerajinan**
   
-  ![Daftar Produk Kerajinan - Dark Mode](Screenshot/pm33.jpg)
+  ![Daftar Produk Kerajinan - Dark Mode](Screenshot/pm33.png)
