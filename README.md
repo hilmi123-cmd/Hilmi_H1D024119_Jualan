@@ -8,9 +8,8 @@ Shift Awal & Baru : G & A
 
 # Screenshot
 
-### Display Pertemuan 4 (Recomposition dan UI Lifecycle)
+### Petemuan 5 (Networking & Architecture)
 
 #### Mode Terang (Light Mode)
-![#1](Screenshot/p41.png)
-![#2](Screenshot/p42.png)
-![#3](Screenshot/p43.png)
+![#1](Screenshot/p51.png)
+![#2](Screenshot/p52.png)

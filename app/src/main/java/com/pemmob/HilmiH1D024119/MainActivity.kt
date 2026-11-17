@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -13,6 +14,7 @@ import com.pemmob.HilmiH1D024119.ui.screen.DaftarProdukScreen
 import com.pemmob.HilmiH1D024119.ui.screen.DetailProductScreen
 import com.pemmob.HilmiH1D024119.ui.screen.HubungiKamiScreen
 import com.pemmob.HilmiH1D024119.ui.theme.JualanTheme
+import com.pemmob.HilmiH1D024119.ui.viewmodel.ProductViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,13 +23,17 @@ class MainActivity : ComponentActivity() {
         setContent {
             JualanTheme {
                 val navController = rememberNavController()
+                val productViewModel: ProductViewModel = viewModel()
                 NavHost(
                     navController = navController,
                     startDestination = "daftar_produk"
                 ) {
                     // 1. Rute Halaman Daftar Produk
                     composable(route = "daftar_produk") {
-                        DaftarProdukScreen(navController = navController)
+                        DaftarProdukScreen(
+                            navController = navController,
+                            viewModel = productViewModel
+                        )
                     }
 
                     // 2. Rute Halaman Detail Produk (Membawa Argumen productId)
@@ -40,7 +46,8 @@ class MainActivity : ComponentActivity() {
                         val productId = backStackEntry.arguments?.getInt("productId") ?: 0
                         DetailProductScreen(
                             productId = productId,
-                            navController = navController
+                            navController = navController,
+                            viewModel = productViewModel
                         )
                     }
 
